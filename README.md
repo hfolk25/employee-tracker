@@ -11,7 +11,7 @@ I began by formatting the inquirer prompts and then built each individual functi
 
 ## Credits
 
-Peter, Lilo
+https://www.w3schools.com/sql/default.asp
 
 ## License
 
