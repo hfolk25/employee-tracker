@@ -30,9 +30,9 @@ VALUES
     ("Christian", "Eckenrode", 3),
     ("Tammer", "Galal", 4);
 
-UPDATE Employees SET manager_id=3 WHERE first_name="John";
-UPDATE Employees SET manager_id=1 WHERE first_name="Mike";
-UPDATE Employees SET manager_id=3 WHERE first_name="Kevin";
-UPDATE Employees SET manager_id=7 WHERE first_name="Tom";
-UPDATE Employees SET manager_id=2 WHERE first_name="Christian";
-UPDATE Employees SET manager_id=4 WHERE first_name="Tammer";
+UPDATE Employees SET manager_id=3 WHERE id=1;
+UPDATE Employees SET manager_id=1 WHERE id=2;
+UPDATE Employees SET manager_id=3 WHERE id=4;
+UPDATE Employees SET manager_id=7 WHERE id=8;
+UPDATE Employees SET manager_id=2 WHERE id=9;
+UPDATE Employees SET manager_id=4 WHERE id=10;
