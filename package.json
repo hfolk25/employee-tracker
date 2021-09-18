@@ -2,8 +2,9 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "employeeTracker.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,14 +12,15 @@
     "url": "git+https://github.com/hfolk25/employee-tracker.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hfolk25/employee-tracker/issues"
   },
   "homepage": "https://github.com/hfolk25/employee-tracker#readme",
   "dependencies": {
+    "asciiart-logo": "^0.2.6",
     "console.table": "^0.10.0",
-    "inquirer": "^7.0.1",
-    "mysql": "^2.17.1"
+    "inquirer": "^8.1.5",
+    "mysql2": "^2.3.0"
   }
 }
